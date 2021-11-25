@@ -8,7 +8,7 @@ function osa(fn) {
         var args = JSON.parse($.getenv('OSA_ARGS'))
         var out  = fn.apply(null, args)
         JSON.stringify(out)
-    `, { presets: ['env'] }).code
+    `).code
 
     var osafn = function(...args) {
         return new Promise((res, rej) => {
