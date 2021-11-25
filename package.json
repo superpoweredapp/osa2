@@ -1,6 +1,6 @@
 {
-  "name": "osa2",
-  "version": "0.2.2",
+  "name": "@superpowered/osa2",
+  "version": "1.0.0",
   "description": "Interact with Apple's Open Scripting Architecture",
   "main": "index.js",
   "repository": "https://github.com/wtfaremyinitials/osa2.git",
